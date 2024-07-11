@@ -29,9 +29,10 @@ twitter_username: gswclinton
 github_username:  2gclinton
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/minimal
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
