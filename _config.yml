@@ -29,7 +29,7 @@ twitter_username: gswclinton
 github_username:  2gclinton
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
