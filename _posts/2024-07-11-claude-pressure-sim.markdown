@@ -221,4 +221,4 @@ let prevTime = 0;
 
 Claude built me a replica, and I added a few features (and dispensed with the live graph, for the sake of proving the concept.) This took only two prompts. The first to get the basic simulation up and running, and the second to add the pressure gauge.
 
-Check it out here: https://claude.site/artifacts/557b9e66-524c-4558-be81-6da952727456
+Check it out here: [Claude Pressure Simulation](https://claude.site/artifacts/557b9e66-524c-4558-be81-6da952727456)
