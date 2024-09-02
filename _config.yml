@@ -18,8 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Greg Clinton Projects and Ideas
-email: gclinton@gmail.com
+title: Greg Clinton, Ideas
 description: >- # this means to ignore newlines until "baseurl:"
   A personal site by Greg Clinton.
 domain: 2gclinton.github.io
