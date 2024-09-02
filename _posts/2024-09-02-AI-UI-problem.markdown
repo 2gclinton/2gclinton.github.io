@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI is a UI Problem"
-date:   2024-09-02 08:00:00 -0400
+date:   2024-09-02 01:00:00 -0400
 categories: speculation
 ---
 A lot of people think that AI is a question of intelligence. They believe that if the models get smarter, the Revolution will come from a massive influx of freely available intelligence on tap. Sounds plausible.
