@@ -4,7 +4,7 @@ title:  "AI is a UI Problem"
 date:   2024-09-02 01:00:00 -0400
 categories: speculation
 ---
-A lot of people think that AI is a question of intelligence. They believe that if the models get smarter, the Revolution will come from a massive influx of freely available intelligence on tap. Sounds plausible.
+A lot of people think that AI is all about intelligence. They believe that if the models get smarter, the Revolution will come from a massive influx of freely available intelligence on tap. Sounds plausible.
 
 I've been paying some attention to AI. I wasn't "into AI before it was cool" -- I'm not that far ahead. But I noticed the OpenAI playground before ChatGPT and I tried to create passing IB Literature essays with it at that point, which, by the way, was pretty challenging and took a couple hours to produce (via lots of copy and paste). But still felt like magic. Ah, the good old days of just last school year.
 
