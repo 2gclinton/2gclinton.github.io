@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "AI is a UI Problem"
+date:   2024-09-02 20:00:00 -0400
+categories: speculation
+---
+A lot of people think that AI is a question of intelligence. They believe that if the models get smarter, the Revolution will come from a massive influx of freely available intelligence on tap. Sounds plausible.
+
+I've been paying some attention to AI. I wasn't "into AI before it was cool" -- I'm not that far ahead. But I noticed the OpenAI playground before ChatGPT and I tried to create passing IB Literature essays with it at that point, which, by the way, was pretty challenging and took a couple hours to produce (via lots of copy and paste). But still felt like magic. Ah, the good old days of just last school year.
+
+The other day I built [a really playable version of Tetris](https://claude.site/artifacts/487b2ffe-a821-4e7a-b51b-c7d724c36337) with Claude in an artifact. I built it so that some 7th graders could use the game in their science class -- they were testing the effects of "Screen Time" on cognitive abilities, and they had requested campus access to some spammy, ad-laden Tetris website. So I built them a game without ads. It took me about 40 minutes, with coffee breaks, and many interruptions. You can play it if you want to. (It's pretty hard -- I've gotten to level 9 but only barely. Don't play it on a phone like a savage. Use the arrow keys on your keyboard.) You can also "remix" it and continue developing it in Claude. Let me know if that's what you do!
+
+So, from struggling to write a coherent essay over a couple hours, to building (and publishing) Tetris in 40 minutes. Not bad. But so what?
+
+What this says to me is that the Revoluation in AI seems to be happening in UI design and UX integration. If you follow AI news, you are bombarded by "AI in XYZ" where "XYZ" is pretty much everything. AI in the search field on WhatsApp. AI in Github. AI in watches and glasses and odd little boxes and broaches. [AI in e-ink poetry clocks](https://www.kickstarter.com/projects/genmon/poem-1-the-ai-poetry-clock/rewards) (and if you think I haven't bought one of those, and was tempted to buy two, and am eagerly awaing the Kickstarter shipment, think again, dear reader.) [AI in schools.](https://www.flintk12.com)
+
+This all means that AI is a UI problem, and many people are trying to solve it. The question is not "how much smarter will the models get?" The question is "how will we most comfortably, successfully, delightfully, and profitably interact with the models?" This is a question for UX designers, for people with deep empathy for the problems that users face, the obstacles to success (and the mechanisms to increase engagement.)
+
+The most aniticipated (by me, anyway) release in the AI industry is not GPT5. GPT4 is already really smart. No, the release I care most about is Advanced Voice Mode. (Maybe I'll change my mind about the importance of GPT5 once it is released.) If you watch [the demonstrations that OpenAI released](https://www.youtube.com/watch?v=1uM8jhcqDP0) a couple months ago, it's clear that AVM achieves something *new* without being all that new in terms of IQ. It's just GPT 4o with some fancy voice stuff. The voice is real time, startlingly life-like, cloyingly positive (but also, with the addition of ScarJo's huskiness, comfortingly alluring, which is an important aspect of the product), and, of course, smarter than you.
+
+Again, this is not a revoluationry intelligence product -- that part is old news. This is a new UI, a new way to interact.
+
+What impact will this have on schools, on young people, on teaching and learning?
+
+The UI shifts happening now will be the ingredients that cause the biggest shifts in perceptions. Poeple, including children, will immediately form intimate bonds with this new creature. They will experience a heightened emotional response when conversing with it -- including in the context of school or learning. (Greater emotional responses will result in deeper learning opportunities.) It will be a machine that can legitimately cajole you into doing a little more practice before you log off and fire up the Xbox. (Like, you'll want to please it so you'll put in a few more minutes on the math drills.) It will be a machine that can legitimately talk you through a tough situation. Again, GPT 4o can already do this, but only in the form of long paragraphs, and many young people aren't as facile with long-form text as their elders.
+
+It will also, of course, be yet another avenue for addiction, loneliness, and manipulation by forces beyond a young person's control. But that's true of all technology, so it's not really worth covering here in greater depth than it already has been by others. Suffice to say: legitimately dangerous, like a power tool.
+
+The main point is that, good or bad, helpful or harmful, AI is a UI problem.
+
+The Singularity may simply happen at the point when we wake up, head to school or work with a sense of anticipation, to collaborate with our AI friends, who are so helpful, who always apologize for the confusion and thank us for pointing out their error, and who never get tired of listening to our hopes, sorrows, bad poems, dreams. The Singularity is a really, really successful AI UI.
