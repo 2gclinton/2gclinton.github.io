@@ -12,7 +12,9 @@ The other day I built [a really playable version of Tetris](https://claude.site/
 
 So, from struggling to write a coherent essay over a couple hours, to building (and publishing) Tetris in 40 minutes. Not bad. But so what?
 
-What this says to me is that the Revoluation in AI seems to be happening in UI design and UX integration. If you follow AI news, you are bombarded by "AI in XYZ" where "XYZ" is pretty much everything. AI in the search field on WhatsApp. AI in Github. AI in watches and glasses and odd little boxes and broaches. [AI in e-ink poetry clocks](https://www.kickstarter.com/projects/genmon/poem-1-the-ai-poetry-clock/rewards) (and if you think I haven't bought one of those, and was tempted to buy two, and am eagerly awaing the Kickstarter shipment, think again, dear reader.) [AI in schools.](https://www.flintk12.com)
+What this says to me is that the Revoluation in AI seems to be happening in UI design and UX integration (UI is the user interface, how we interact with something; UX is the experience we have when using something -- they often go together, and I'm very sorry if you take offense to me using these terms essentially interchangeably).
+
+If you follow AI news, you are bombarded by "AI in XYZ" where "XYZ" is pretty much everything. AI in the search field on WhatsApp. AI in Github. AI in watches and glasses and odd little boxes and broaches. [AI in e-ink poetry clocks](https://www.kickstarter.com/projects/genmon/poem-1-the-ai-poetry-clock/rewards) (and if you think I haven't bought one of those, and was tempted to buy two, and am eagerly awaing the Kickstarter shipment, think again, dear reader.) [AI in schools.](https://www.flintk12.com)
 
 This all means that AI is a UI problem, and many people are trying to solve it. The question is not "how much smarter will the models get?" The question is "how will we most comfortably, successfully, delightfully, and profitably interact with the models?" This is a question for UX designers, for people with deep empathy for the problems that users face, the obstacles to success (and the mechanisms to increase engagement.)
 
