@@ -20,7 +20,7 @@ This all means that AI is a UI problem, and many people are trying to solve it. 
 
 Some companies are getting this right. Anthropic's "Projects" features is a good example -- you can create a foundation of knowledge, even shared among multiple users. As your project evolves and you add new documents to this foundation, the chats produce new results. Anthropics artifacts, as I already noted, are another prime example of advancements in UI that change the nature of the tool.
 
-Apple's "Apple Intelligence" is rumored to be yet another UI/UX advancement, notably privacy first and on-device-when-possible. No doubt there is significant engineering muscle behind this new user experience.
+[Apple's "Apple Intelligence"](https://www.apple.com/in/apple-intelligence/) is rumored to be yet another UI/UX advancement, notably privacy first and on-device-when-possible. No doubt there is significant engineering muscle behind this new user experience.
 
 A small but mighty company that I've interacted with over the past year, Flint, is attempting to solve the UI/UX problem for school settings. Schools can't afford to let students loose with these powerful models and hope they'll use them responsibly. There is evidence -- shocker! -- that letting someone else do your homework will result in you learning less. So Flint offers students customized interactions with AI -- fun, interesting, challenging, designed by the teacher with a lot of useful assistance from the tool itself -- that also allow teachers and the school administration full visibility into how students use AI. This means we can guide students to productive uses and habits. Same underlying models, better UI.
 
