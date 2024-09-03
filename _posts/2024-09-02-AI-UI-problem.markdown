@@ -28,7 +28,7 @@ Some companies are getting this wrong. Google's AI powered search results are pa
 
 The most aniticipated (by me, anyway) release in the AI industry is not GPT-5. GPT-4 is already really smart. No, the release I care most about is Advanced Voice Mode in ChatGPT. If you watch [the demonstrations that OpenAI released](https://www.youtube.com/watch?v=1uM8jhcqDP0) a couple months ago, it's clear that AVM achieves something *new* without being all that new in terms of IQ. It's just GPT 4o with some fancy voice technology.[^1] The voice is real time, startlingly life-like, cloyingly positive (but also, with the addition of ScarJo's huskiness, comfortingly alluring, which is an important aspect of the product), and, of course, smarter than you.
 
-[^1] I'm sure I'm minimizing the engineering efforts that allow this to happen, but the point is that the underlying model hasn't changed.
+[^1]: I'm sure I'm minimizing the engineering efforts that allow this to happen, but the point is that the underlying model hasn't changed.
 
 Again, this is not a revolutionary intelligence product -- that part is old news. This is a new UI, a new way to interact.
 
