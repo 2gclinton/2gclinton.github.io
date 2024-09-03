@@ -12,13 +12,23 @@ The other day I built [a really playable version of Tetris](https://claude.site/
 
 So, from struggling to write a coherent essay over a couple hours, to building (and publishing) Tetris in 40 minutes. Not bad. But so what?
 
-What this says to me is that the Revoluation in AI seems to be happening in UI design and UX integration (UI is the user interface, how we interact with something; UX is the experience we have when using something -- they often go together, and I'm very sorry if you take offense to me using these terms essentially interchangeably).
+What this says to me is that the Revoluation in AI seems to be happening in UI design and UX integration (UI is the user interface, how we interact with something; UX is the experience we have when using something).
 
 If you follow AI news, you are bombarded by "AI in XYZ" where "XYZ" is pretty much everything. AI in the search field on WhatsApp. AI in Github. AI in watches and glasses and odd little boxes and broaches. [AI in e-ink poetry clocks](https://www.kickstarter.com/projects/genmon/poem-1-the-ai-poetry-clock/rewards) (and if you think I haven't bought one of those, and was tempted to buy two, and am eagerly awaing the Kickstarter shipment, think again, dear reader.) [AI in schools.](https://www.flintk12.com)
 
 This all means that AI is a UI problem, and many people are trying to solve it. The question is not "how much smarter will the models get?" The question is "how will we most comfortably, successfully, delightfully, and profitably interact with the models?" This is a question for UX designers, for people with deep empathy for the problems that users face, the obstacles to success (and the mechanisms to increase engagement.)
 
-The most aniticipated (by me, anyway) release in the AI industry is not GPT5. GPT4 is already really smart. No, the release I care most about is Advanced Voice Mode. If you watch [the demonstrations that OpenAI released](https://www.youtube.com/watch?v=1uM8jhcqDP0) a couple months ago, it's clear that AVM achieves something *new* without being all that new in terms of IQ. It's just GPT 4o with some fancy voice stuff. The voice is real time, startlingly life-like, cloyingly positive (but also, with the addition of ScarJo's huskiness, comfortingly alluring, which is an important aspect of the product), and, of course, smarter than you.
+Some companies are getting this right. Anthropic's "Projects" features is a good example -- you can create a foundation of knowledge, even shared among multiple users. As your project evolves and you add new documents to this foundation, the chats produce new results. Anthropics artifacts, as I already noted, are another prime example of advancements in UI that change the nature of the tool.
+
+Apple's "Apple Intelligence" is rumored to be yet another UI/UX advancement, notably privacy first and on-device-when-possible. No doubt there is significant engineering muscle behind this new user experience.
+
+A small but mighty company that I've interacted with over the past year, Flint, is attempting to solve the UI/UX problem for school settings. Schools can't afford to let students loose with these powerful models and hope they'll use them responsibly. There is evidence -- shocker! -- that letting someone else do your homework will result in you learning less. So Flint offers students customized interactions with AI -- fun, interesting, challenging, designed by the teacher with a lot of useful assistance from the tool itself -- that also allow teachers and the school administration full visibility into how students use AI. This means we can guide students to productive uses and habits. Same underlying models, better UI.
+
+Some companies are getting this wrong. Google's AI powered search results are painful and unwelcome. The failure of [Humane's "pin"](https://humane.com/) and the [Rabbit R1](https://www.rabbit.tech/) are now legendary.
+
+The most aniticipated (by me, anyway) release in the AI industry is not GPT-5. GPT-4 is already really smart. No, the release I care most about is Advanced Voice Mode in ChatGPT. If you watch [the demonstrations that OpenAI released](https://www.youtube.com/watch?v=1uM8jhcqDP0) a couple months ago, it's clear that AVM achieves something *new* without being all that new in terms of IQ. It's just GPT 4o with some fancy voice technology.[^a] The voice is real time, startlingly life-like, cloyingly positive (but also, with the addition of ScarJo's huskiness, comfortingly alluring, which is an important aspect of the product), and, of course, smarter than you.
+
+[^a] I'm sure I'm minimizing the engineering efforts that allow this to happen, but the point is that the underlying model hasn't changed.
 
 Again, this is not a revolutionary intelligence product -- that part is old news. This is a new UI, a new way to interact.
 
