@@ -10,6 +10,8 @@ I've been paying some attention to AI. I wasn't "into AI before it was cool" -- 
 
 The other day I built [a really playable version of Tetris](https://claude.site/artifacts/487b2ffe-a821-4e7a-b51b-c7d724c36337) with Claude in an artifact. I built it so that some 7th graders could use the game in their science class -- they were testing the effects of "Screen Time" on cognitive abilities, and they had requested campus access to some spammy, ad-laden Tetris website. So I built them a game without ads. It took me about 40 minutes, with coffee breaks, and many interruptions. You can play it if you want to. You can also "remix" it and continue developing it in Claude. Let me know if that's what you do!
 
+![Homemade Tetris game](/assets/Tetris.png "Made with Claude by Greg Clinton.")
+
 So, from struggling to write a coherent essay over a couple hours, to building (and publishing) Tetris in 40 minutes. Not bad. But so what?
 
 What this says to me is that the Revoluation in AI seems to be happening in UI design and UX integration (UI is the user interface, how we interact with something; UX is the experience we have when using something).
