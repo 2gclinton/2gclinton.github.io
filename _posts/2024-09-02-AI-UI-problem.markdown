@@ -40,4 +40,6 @@ It will also, of course, be yet another avenue for addiction, loneliness, and ma
 
 The main point is that, good or bad, helpful or harmful, AI is a UI problem.
 
-The Singularity may simply happen at the point when we wake up, head to school or work with a sense of anticipation, to collaborate with our AI friends, who are so helpful, who always apologize for the confusion and thank us for pointing out their error, and who never get tired of listening to our hopes, sorrows, bad poems, dreams. The Singularity is a really, really successful AI UI.
+The Singularity may simply happen at the point when we wake up, head to school or work with a sense of anticipation, to collaborate with our AI friends, who are so helpful, who always apologize for the confusion and thank us for pointing out their error, and who never get tired of listening to our hopes, sorrows, bad poems, dreams.
+
+The Singularity is a really, really successful AI UI.
