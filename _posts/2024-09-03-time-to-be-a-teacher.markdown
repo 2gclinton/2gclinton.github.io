@@ -10,11 +10,11 @@ The alternative is the maker’s schedule. In Graham’s world, those are writer
 
 These time horizons matter. If a maker feels they won’t have extended periods of time, they will be less likely to start anything ambitious or hard; they will be slightly depressed at the notion that their day is being fragmented. “Ambitious projects are by definition close to the limits of your capacity. A small decrease in morale is enough to kill them off.”
 
-As a school administrator who has spent the majority of my career in the classroom, but have also had the opportunity to spend 5 years in academia and who also has school-aged children, I’ve seen this play out in many different ways. There are multiple goals that have to be understood, each from their own perspective.
+As a school administrator who has spent the majority of my career in the classroom, but have also had the opportunity to spend 5 years in academia, and who also has school-aged children, I’ve seen this play out in many different ways. There are multiple goals that have to be understood, each from their own perspective.
 
-Administrators are solidly on the manager's schedule. The longer anyone spends in administration, the higher the likelihood they forget what it means to be a maker, or to enjoy the benefits of a maker’s schedule. They will, however, remember that feeling fondly, of being able to spend time on the pure pleasure of discovery and creation.
+Administrators are solidly on the manager's schedule. The longer anyone spends in administration, the higher the likelihood they forget what it means to be a maker, or to enjoy the benefits of a maker’s schedule. They will, however, remember that feeling fondly of being able to spend time on what they know is most important (ie. often not what is urgent).
 
-Many teachers are makers beholden to a manager’s schedule.[^2] And later I will argue that students are the same. If we take this idea seriously, it should have profound effects on how we understand the work day, work week, and academic calendar.
+Many teachers are makers beholden to a manager’s schedule.[^2] And later I will suggest that students are the same. If we take this idea seriously, it should have profound effects on how we understand the work day, work week, and academic calendar.
 
 The school day as it is traditionally framed is a manager’s schedule. It comes from the top down. By default, you change what you’re doing every hour. The schedule is determined in advance and every minute is accounted for. From the manager’s perspective, this makes perfect sense and has a strong justification: spreading out the time each teacher has to teach each class, and correspondingly the time each student has for each class, enables classes to proceed at a similar pace, and everyone reaches the finish line at the same time. The business case for operating schools on a manager’s schedule is really very rational and coherent.
 
