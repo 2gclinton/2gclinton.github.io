@@ -26,7 +26,7 @@ University professors are almost embarrassingly free to just *think*. Sometimes 
 
 Maybe it’s obvious but still worth noting that most K-12 schools can’t operate like universities. Their students have not developed enough self-direction to operate independently all day. Or have they? Montessori schools famously give students all kinds of freedom, even at a very young age. I don’t know enough about the learning outcomes of Montessori students, but I know that the model has stuck around for a while, so some people presumably benefit from it. One could reasonably make the case that some students haven’t developed the skills for self-direction because we haven’t given them enough opportunities to develop them.
 
-But teachers, adult professionals, have indeed developed those skills. And their work is creative, difficult, and requires uninterrupted time. They are makers. If teachers had maker’s schedules, they would have more ambitious professional goals. They would set themselves higher standards. They would feel “time rich” and set their aim toward more creative or innovative projects.
+But teachers, adult professionals, have indeed developed those skills. And their work is creative, difficult, and requires uninterrupted time. They are makers. If teachers had maker’s schedules, they would have more ambitious professional goals. They would set themselves higher standards. They would feel “time rich” and set their aim toward more creative or innovative projects. They'd be happier.
 
 The compromise is to establish those spacious time zones within the school day or school week, for teachers and students both.
 
