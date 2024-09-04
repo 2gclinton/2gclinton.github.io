@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Time to Be a Teacher"
-date:   2024-09-04 01:00:00 -0400
+date:   2024-09-03 01:00:00 -0400
 categories: leadership
 ---
 “There are two types of schedule,” Paul Graham writes, “which I’ll call the manager’s schedule and the maker’s schedule.”[^1] When he thinks of managers’ schedules, he thinks of hour-long chunks of time that can be mixed and matched, and “by default you change what you’re doing every hour.” This makes it possible to say to someone, just go look at my calendar and find a slot so we can meet. Meetings are often *speculative*: exploratory sessions where managers try to figure out if their projects and goals align with someone else’s. This serves managers because they need to build alliances and direct resources and develop relationships. “Most powerful people are on the manager’s schedule. It’s the schedule of command.”
