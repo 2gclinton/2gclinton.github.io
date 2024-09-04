@@ -34,9 +34,9 @@ For example: What happens if one day out of five is entirely devoted to self-dir
 
 Jane McGonigal writes about this sense of being time rich or time poor:
 
-“When we feel *time-poor*… it's like being stuck in a tiny, depressing room with no windows. We shrink ourselves and imagine less. We adopt “minimal” goals, which means we try to do just enough to avoid a bad outcome. As one team of expert psychologists put it: “A maximal goal reflects the most that one could wish for, whereas a minimal goal reflects bare necessities or the least one could comfortably tolerate.”
-
-Do you have a sense of whether you're waking up each day focused on maximal or minimal goals? Whether you’re feeling time-rich or time-poor?”[^3]
+> “When we feel *time-poor*… it's like being stuck in a tiny, depressing room with no windows. We shrink ourselves and imagine less. We adopt “minimal” goals, which means we try to do just enough to avoid a bad outcome. As one team of expert psychologists put it: “A maximal goal reflects the most that one could wish for, whereas a minimal goal reflects bare necessities or the least one could comfortably tolerate.”
+>
+> Do you have a sense of whether you're waking up each day focused on maximal or minimal goals? Whether you’re feeling time-rich or time-poor?”[^3]
 
 As a teacher, learner, leader, and parent, I know exactly how I want the learners at my school to feel: time-rich, focused on maximal goals. Our collective understanding of time and the practice of being a learner \-- that teachers and students are makers on manager’s schedules \-- may allow us to achieve that.
 
