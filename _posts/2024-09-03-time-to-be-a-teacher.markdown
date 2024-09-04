@@ -16,7 +16,7 @@ Administrators are solidly on the manager's schedule. The longer anyone spends i
 
 Many teachers are makers beholden to a manager’s schedule.[^2] And later I will suggest that students are the same. If we take this idea seriously, it should have profound effects on how we understand the work day, work week, and academic calendar.
 
-The school day as it is traditionally framed is a manager’s schedule. It comes from the top down. By default, you change what you’re doing every hour. The schedule is determined in advance and every minute is accounted for. From the manager’s perspective, this makes perfect sense and has a strong justification: spreading out the time each teacher has to teach each class, and correspondingly the time each student has for each class, enables classes to proceed at a similar pace, and everyone reaches the finish line at the same time. The business case for operating schools on a manager’s schedule is really very rational and coherent.
+The school day as it is traditionally framed is a manager’s schedule. It comes from the top down. By default, you change what you’re doing every hour. The schedule is determined in advance and every minute is accounted for. From the manager’s perspective, this makes perfect sense and has a strong justification: spreading out the time each teacher has to teach each class, and correspondingly the time each student has for each class, enables classes to proceed at a similar pace, and everyone reaches the finish line at the same time. The business case for operating schools on a manager’s schedule is really very rational and coherent.[^4]
 
 If we recognize that teachers and students are makers rather than managers, we might recognize that a compromise should be struck. Higher education has reached this compromise, to some extent. Students and teachers engage in far fewer courses than in primary or secondary school, and have far more flexible time \-- sometimes entire days \-- to engage with material and make of it what they will.
 
@@ -45,3 +45,5 @@ As a teacher, learner, leader, and parent, I know exactly how I want the learner
 [^2]:  Some teachers are managers and prefer that mode.
 
 [^3]:  Jane McGonigal. *Imaginable: How to Create a Hopeful Future*. 2023\. pg. 8-9
+
+[^4]:  Thanks to Reshan Richards for pointing me to the Graham article, and for his writing on "making the case". https://makingthecase.substack.com/p/introducing-making-the-case
