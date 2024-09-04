@@ -12,7 +12,7 @@ These time horizons matter. If a maker feels they won’t have extended periods 
 
 As a school administrator who has spent the majority of my career in the classroom, but have also had the opportunity to spend 5 years in academia, and who also has school-aged children, I’ve seen this play out in many different ways. There are multiple goals that have to be understood, each from their own perspective.
 
-Administrators are solidly on the manager's schedule. The longer anyone spends in administration, the higher the likelihood they forget what it means to be a maker, or to enjoy the benefits of a maker’s schedule. They will, however, remember that feeling fondly of being able to spend time on what they know is most important (ie. often not what is urgent).
+Administrators are solidly on the manager's schedule. The longer anyone spends in administration, the higher the likelihood they forget what it means to be a maker, or to enjoy the benefits of a maker’s schedule. They will, however, fondly remember the feeling of spending time on what they know is most important (ie. often not what is urgent).
 
 Many teachers are makers beholden to a manager’s schedule.[^2] And later I will suggest that students are the same. If we take this idea seriously, it should have profound effects on how we understand the work day, work week, and academic calendar.
 
