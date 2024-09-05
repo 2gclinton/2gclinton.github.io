@@ -4,7 +4,7 @@ title:  "Are Students and Teachers Makers?"
 date:   2024-09-04 01:00:00 -0400
 categories: leadership
 ---
-Recently I wrote some thoughts about Paul Graham’s distinction between manager’s schedules and maker’s schedules and how that might impact schedules in a K12 setting.
+Recently [I wrote some thoughts](https://2gclinton.github.io/leadership/2024/09/03/time-to-be-a-teacher.html) about Paul Graham’s distinction between manager’s schedules and maker’s schedules and how that might impact schedules in a K12 setting.
 
 The questions that were raised by my kind readers included:
 
