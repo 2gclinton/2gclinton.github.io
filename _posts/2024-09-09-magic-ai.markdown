@@ -6,9 +6,7 @@ categories: AI, speculation
 ---
 One of the most ridiculous but somehow compelling toys I remember having as a kid was the Magic 8-Ball. It’s still a best-seller around the world (here advertised as “[the ball that knows EVERYTHING!](https://www.coolgift.com/en/Magic-8-Ball)"). It looks like a large version of the 8-Ball from billiards, but with a little window on top. Inside the ball is some blue liquid, and floating in the liquid is a multi-sided die with messages on each side: “It is decidedly so” or “No” or “Most Likely.” The idea is that you shake the ball while asking a question. Whichever “answer” appears in the window is the prediction. Magic!
 
-
 ![Magic 8-Ball](/assets/magic-8-ball.png)
-
 
 Sometimes working with AI feels like shaking the Magic 8-Ball. For one thing, no one really understands how Large Language Models like ChatGPT work – [even the engineers who build them are mystified](https://www.vox.com/unexplainable/2023/7/15/23793840/chat-gpt-ai-science-mystery-unexplainable-podcast). Yet somehow, after every prompt, an answer “magically” appears, and as time goes on and more work is done to train these systems, the answers get better and better. Shake the system, something happens inside, and then the output appears.
 
