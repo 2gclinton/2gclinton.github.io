@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "The Apparent Magic of AI"
+date:   2024-09-10 01:00:00 -0400
+categories: AI, speculation
+---
+One of the most ridiculous but somehow compelling toys I remember having as a kid was the Magic 8-Ball. It’s still a best-seller around the world (here advertised as “[the ball that knows EVERYTHING!](https://www.coolgift.com/en/Magic-8-Ball)". It looks like a large version of the 8-Ball from billiards, but with a little window on top. Inside the ball is some blue liquid, and floating in the liquid is a multi-sided die with messages on each side: “It is decidedly so” or “No” or “Most Likely.” The idea is that you shake the ball while asking a question. Whichever “answer” appears in the window is the prediction. Magic!
+
+![Magic 8-Ball](/assets/magic-8-ball.png)
+
+Sometimes working with AI feels like shaking the Magic 8-Ball. For one thing, no one really understands how Large Language Models like ChatGPT work – [even the engineers who build them are mystified](https://www.vox.com/unexplainable/2023/7/15/23793840/chat-gpt-ai-science-mystery-unexplainable-podcast). Yet somehow, after every prompt, an answer “magically” appears, and as time goes on and more work is done to train these systems, the answers get better and better. Shake the system, something happens inside, and then the output appears.
+
+The other reason AI is like a Magic 8-Ball is that it’s no substitute for education. Asking the 8-Ball for information is a silly thing to do; it no more provides insight than any other random throw of the dice. The human must evaluate the output and judge its quality. In an AI world, where non-human intelligence is flourishing, acquiring foundational knowledge and deep skills is more important than ever.
+
+Here’s an example: I use AI all the time as a coding partner. But AI can only safely take me as far as my coding knowledge extends, otherwise I will be unable to check the code for security or efficiency flaws. The higher the stakes, the more my own judgment matters. In low stakes environments, I can make games ([here’s a Tetris game I made](https://claude.site/artifacts/487b2ffe-a821-4e7a-b51b-c7d724c36337) in about half an hour one day, entirely using Claude.ai) and flow charts, or automation tools for our databases – things that I could do in hours or days, but would rather do in minutes. When the stakes are high, however, thorough knowledge of the field matters a great deal. This is true for code, for research, for communication, and any other domain where AI might be invoked.
+
+When students use AI, we are finding that the biggest mistake they can make is to “fall asleep at the wheel,” as Wharton professor Ethan Mollick calls it: the moment when you let the AI go where it wants to go without oversight, much like asking the Magic 8-Ball for an answer to a high stakes question and accepting its answer as truth.
+
+For instance, most students are not yet strong analytical or research writers. As educators, we know that encouraging students to practice the craft and strategies of writing helps them become better thinkers and communicators. If a student were to “outsource” the writing to ChatGPT, it would be, [as writer Ted Chiang recently put it](https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art), “like bringing a forklift into the weight room; you will never improve your cognitive fitness that way.”
+
+The standard Magic 8-Ball has twenty possible answers: ten affirmative answers (“As I see it, yes”), five non-committal answers (“Reply hazy, try again”), and five negative answers (“No”). In other words, the Magic 8-Ball, just like ChatGPT, is designed to be “helpful” – half the time it’s going to tell you some version of “Yes.” It’s our job as educators to ensure that students understand this, both for better and for worse, and leverage new forms of intelligence to support their own growth. This is why our faculty have committed to remaining open, curious, experimental, and collaborative when it comes to how AI is used at AISC.
+
+While we can’t predict the future, no matter how many shakes of the Magic 8-Ball we try, we can understand the conditions for change and double down on the core project of learning and growth in a diverse and dynamic world.
+
+This is, as I’ve been told many times in the past, decidedly so.
