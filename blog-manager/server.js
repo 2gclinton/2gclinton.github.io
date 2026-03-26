@@ -42,6 +42,14 @@ function buildFileContent(title, date, categories, layout, content) {
   return frontMatter + '\n' + (content || '');
 }
 
+function sanitizeFilename(filename) {
+  const base = path.basename(filename);
+  if (base !== filename || filename.includes('\0')) {
+    return null;
+  }
+  return base;
+}
+
 function resolveUniqueFilename(dir, filename) {
   if (!fs.existsSync(path.join(dir, filename))) return filename;
   const ext = path.extname(filename);
@@ -133,8 +141,11 @@ app.get('/api/posts', (req, res) => {
 // Read single post. Check _posts first, then _drafts.
 
 app.get('/api/posts/:filename', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) {
+    return res.status(400).json({ error: 'Invalid filename' });
+  }
   try {
-    const { filename } = req.params;
     let filePath = path.join(POSTS_DIR, filename);
     let status = 'published';
 
@@ -193,25 +204,28 @@ app.post('/api/posts', (req, res) => {
 // Update post. Handle status changes (move between _posts and _drafts).
 
 app.put('/api/posts/:filename', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) {
+    return res.status(400).json({ error: 'Invalid filename' });
+  }
   try {
-    const { filename } = req.params;
     const { title, date, categories, layout, content, status } = req.body;
 
     // Find the file
-    let oldPath = path.join(POSTS_DIR, filename);
+    let filePath = path.join(POSTS_DIR, filename);
     let currentStatus = 'published';
 
-    if (!fs.existsSync(oldPath)) {
-      oldPath = path.join(DRAFTS_DIR, filename);
+    if (!fs.existsSync(filePath)) {
+      filePath = path.join(DRAFTS_DIR, filename);
       currentStatus = 'draft';
     }
 
-    if (!fs.existsSync(oldPath)) {
+    if (!fs.existsSync(filePath)) {
       return res.status(404).json({ error: 'Post not found' });
     }
 
     // Read existing data
-    const raw = fs.readFileSync(oldPath, 'utf-8');
+    const raw = fs.readFileSync(filePath, 'utf-8');
     const parsed = matter(raw);
 
     const newTitle = title !== undefined ? title : parsed.data.title;
@@ -231,20 +245,19 @@ app.put('/api/posts/:filename', (req, res) => {
       targetDir = currentStatus === 'published' ? POSTS_DIR : DRAFTS_DIR;
     }
 
-    // Generate new filename
-    let newFilename = makeFilename(newTitle, newDate);
+    // Generate new filename - write first, then delete old (safe ordering)
+    const newFilename = makeFilename(newTitle, newDate);
+    const finalFilename = resolveUniqueFilename(targetDir, newFilename);
+    const newPath = path.join(targetDir, finalFilename);
 
-    // Delete old file
-    fs.unlinkSync(oldPath);
-
-    // Resolve unique filename in target dir
-    newFilename = resolveUniqueFilename(targetDir, newFilename);
-
-    // Write new file
     const fileContent = buildFileContent(newTitle, newDate, newCategories, newLayout, newContent);
-    fs.writeFileSync(path.join(targetDir, newFilename), fileContent, 'utf-8');
+    fs.writeFileSync(newPath, fileContent, 'utf-8');
 
-    res.json({ filename: newFilename, status: targetStatus });
+    if (filePath !== newPath) {
+      fs.unlinkSync(filePath);
+    }
+
+    res.json({ filename: finalFilename, status: targetStatus });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -254,8 +267,11 @@ app.put('/api/posts/:filename', (req, res) => {
 // Delete post from _posts or _drafts.
 
 app.delete('/api/posts/:filename', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) {
+    return res.status(400).json({ error: 'Invalid filename' });
+  }
   try {
-    const { filename } = req.params;
     let filePath = path.join(POSTS_DIR, filename);
 
     if (!fs.existsSync(filePath)) {
@@ -277,8 +293,11 @@ app.delete('/api/posts/:filename', (req, res) => {
 // Move draft to _posts.
 
 app.post('/api/posts/:filename/publish', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) {
+    return res.status(400).json({ error: 'Invalid filename' });
+  }
   try {
-    const { filename } = req.params;
     const draftPath = path.join(DRAFTS_DIR, filename);
 
     if (!fs.existsSync(draftPath)) {
@@ -316,8 +335,11 @@ app.post('/api/posts/:filename/publish', (req, res) => {
 // Move published post to _drafts.
 
 app.post('/api/posts/:filename/unpublish', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) {
+    return res.status(400).json({ error: 'Invalid filename' });
+  }
   try {
-    const { filename } = req.params;
     const postPath = path.join(POSTS_DIR, filename);
 
     if (!fs.existsSync(postPath)) {
@@ -414,8 +436,11 @@ app.get('/api/pages', (req, res) => {
 // Read a single page.
 
 app.get('/api/pages/:filename', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) {
+    return res.status(400).json({ error: 'Invalid filename' });
+  }
   try {
-    const { filename } = req.params;
     const filePath = path.join(BLOG_ROOT, filename);
 
     if (!fs.existsSync(filePath)) {
@@ -441,35 +466,27 @@ app.get('/api/pages/:filename', (req, res) => {
 // Update a page.
 
 app.put('/api/pages/:filename', (req, res) => {
+  const filename = sanitizeFilename(req.params.filename);
+  if (!filename) return res.status(400).json({ error: 'Invalid filename' });
+
+  const filePath = path.join(BLOG_ROOT, filename);
+  if (!fs.existsSync(filePath)) {
+    return res.status(404).json({ error: 'Page not found' });
+  }
   try {
-    const { filename } = req.params;
-    const filePath = path.join(BLOG_ROOT, filename);
-
-    if (!fs.existsSync(filePath)) {
-      return res.status(404).json({ error: 'Page not found' });
-    }
-
     const { title, layout, permalink, content } = req.body;
-
-    // Read existing data to preserve fields not provided
-    const raw = fs.readFileSync(filePath, 'utf-8');
+    // Read existing to preserve unknown front matter fields
+    const raw = fs.readFileSync(filePath, 'utf8');
     const parsed = matter(raw);
-
-    const newTitle = title !== undefined ? title : parsed.data.title;
-    const newLayout = layout !== undefined ? layout : parsed.data.layout;
-    const newPermalink = permalink !== undefined ? permalink : parsed.data.permalink;
-    const newContent = content !== undefined ? content : parsed.content;
-
-    const frontMatterLines = ['---'];
-    if (newLayout) frontMatterLines.push(`layout: ${newLayout}`);
-    if (newTitle) frontMatterLines.push(`title: "${newTitle.replace(/"/g, '\\"')}"`);
-    if (newPermalink) frontMatterLines.push(`permalink: ${newPermalink}`);
-    frontMatterLines.push('---');
-
-    const fileContent = frontMatterLines.join('\n') + '\n' + (newContent || '');
-    fs.writeFileSync(filePath, fileContent, 'utf-8');
-
-    res.json({ filename, title: newTitle, layout: newLayout, permalink: newPermalink });
+    parsed.data.title = title;
+    parsed.data.layout = layout || 'page';
+    if (permalink) {
+      parsed.data.permalink = permalink;
+    } else {
+      delete parsed.data.permalink;
+    }
+    fs.writeFileSync(filePath, matter.stringify(content || '', parsed.data), 'utf8');
+    res.json({ filename });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
