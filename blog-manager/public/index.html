@@ -5,11 +5,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Manager</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+  <nav class="container">
+    <ul>
+      <li><strong>Blog Manager</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#" data-view="dashboard" class="nav-link active">Posts</a></li>
+      <li><a href="#" data-view="pages" class="nav-link">Pages</a></li>
+    </ul>
+  </nav>
+
   <main class="container">
-    <h1>Blog Manager</h1>
-    <p>It works.</p>
+
+    <!-- Dashboard View -->
+    <section id="view-dashboard">
+      <header>
+        <hgroup>
+          <h2>Posts</h2>
+          <p>All published posts and drafts</p>
+        </hgroup>
+        <button id="btn-new-post" class="btn-new">+ New Post</button>
+      </header>
+      <table id="posts-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Categories</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="posts-body"></tbody>
+      </table>
+    </section>
+
+    <!-- Editor View -->
+    <section id="view-editor" hidden>
+      <header>
+        <a href="#" id="btn-back-dashboard">&larr; Back to Posts</a>
+        <h2 id="editor-heading">New Post</h2>
+      </header>
+
+      <div class="grid">
+        <label>
+          Title
+          <input type="text" id="editor-title" placeholder="Post title" required>
+        </label>
+        <label>
+          Date
+          <input type="date" id="editor-date">
+        </label>
+      </div>
+
+      <div class="grid">
+        <label>
+          Layout
+          <select id="editor-layout">
+            <option value="post">post</option>
+            <option value="page">page</option>
+          </select>
+        </label>
+        <div>
+          <label>Categories</label>
+          <div id="categories-picker">
+            <div id="categories-pills"></div>
+            <div class="cat-input-row">
+              <input type="text" id="cat-input" list="cat-datalist" placeholder="Add category...">
+              <datalist id="cat-datalist"></datalist>
+              <button id="btn-add-cat" class="outline" type="button">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <label>
+        Content
+        <textarea id="editor-content"></textarea>
+      </label>
+
+      <div class="editor-actions">
+        <button id="btn-save-draft" class="secondary">Save Draft</button>
+        <button id="btn-publish">Publish</button>
+      </div>
+    </section>
+
+    <!-- Pages View -->
+    <section id="view-pages" hidden>
+      <hgroup>
+        <h2>Pages</h2>
+        <p>Edit existing site pages</p>
+      </hgroup>
+      <table id="pages-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Permalink</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="pages-body"></tbody>
+      </table>
+    </section>
+
+    <!-- Page Editor View -->
+    <section id="view-page-editor" hidden>
+      <header>
+        <a href="#" id="btn-back-pages">&larr; Back to Pages</a>
+        <h2 id="page-editor-heading">Edit Page</h2>
+      </header>
+
+      <div class="grid">
+        <label>
+          Title
+          <input type="text" id="page-editor-title">
+        </label>
+        <label>
+          Permalink
+          <input type="text" id="page-editor-permalink" placeholder="/about/">
+        </label>
+      </div>
+
+      <label>
+        Content
+        <textarea id="page-editor-content"></textarea>
+      </label>
+
+      <div class="editor-actions">
+        <button id="btn-save-page">Save Page</button>
+      </div>
+    </section>
+
   </main>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.js"></script>
+  <script src="/app.js"></script>
 </body>
 </html>
