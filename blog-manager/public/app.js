@@ -152,6 +152,23 @@ document.getElementById('btn-new-post').addEventListener('click', () => {
   openEditor(null);
 });
 
+// Publish to Site button (git commit + push)
+document.getElementById('btn-sync').addEventListener('click', async () => {
+  if (!confirm('Commit and push all changes to GitHub? This will publish your site.')) return;
+  const btn = document.getElementById('btn-sync');
+  btn.disabled = true;
+  btn.textContent = 'Publishing...';
+  try {
+    const result = await api('/api/sync', { method: 'POST' });
+    showToast(result.message);
+  } catch (err) {
+    // error already shown by api()
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Publish to Site';
+  }
+});
+
 /* ======================================================
    Section 4: Post Editor
    ====================================================== */

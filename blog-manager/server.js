@@ -527,6 +527,34 @@ app.use((err, req, res, next) => {
   next();
 });
 
+// --- Git sync (commit + push) ---
+
+const { execSync } = require('child_process');
+
+app.post('/api/sync', (req, res) => {
+  try {
+    // Stage all changes in the blog root (posts, drafts, assets, pages)
+    execSync('git add -A', { cwd: BLOG_ROOT, encoding: 'utf8' });
+
+    // Check if there are staged changes
+    const status = execSync('git status --porcelain', { cwd: BLOG_ROOT, encoding: 'utf8' }).trim();
+    if (!status) {
+      return res.json({ message: 'Nothing to publish — site is up to date.' });
+    }
+
+    // Commit with a timestamp message
+    const now = new Date().toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' });
+    execSync(`git commit -m "Publish: ${now}"`, { cwd: BLOG_ROOT, encoding: 'utf8' });
+
+    // Push to origin
+    execSync('git push', { cwd: BLOG_ROOT, encoding: 'utf8', timeout: 30000 });
+
+    res.json({ message: 'Published to site.' });
+  } catch (err) {
+    res.status(500).json({ error: err.message || 'Sync failed' });
+  }
+});
+
 // --- Start server ---
 app.listen(PORT, () => {
   console.log(`Blog Manager running at http://localhost:${PORT}`);

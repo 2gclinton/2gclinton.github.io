@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Manager</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css">
   <link rel="stylesheet" href="/style.css">
@@ -28,7 +29,10 @@
           <h2>Posts</h2>
           <p>All published posts and drafts</p>
         </hgroup>
-        <button id="btn-new-post" class="btn-new">+ New Post</button>
+        <div style="display: flex; gap: 0.5rem;">
+          <button id="btn-new-post" class="btn-new">+ New Post</button>
+          <button id="btn-sync" class="btn-new outline">Publish to Site</button>
+        </div>
       </header>
       <table id="posts-table">
         <thead>
@@ -54,7 +58,7 @@
       <div class="grid">
         <label>
           Title
-          <input type="text" id="editor-title" placeholder="Post title" required>
+          <input type="text" id="editor-title" placeholder="Post title">
         </label>
         <label>
           Date
@@ -70,8 +74,8 @@
             <option value="page">page</option>
           </select>
         </label>
-        <div>
-          <label>Categories</label>
+        <label>
+          Categories
           <div id="categories-picker">
             <div id="categories-pills"></div>
             <div class="cat-input-row">
@@ -80,7 +84,7 @@
               <button id="btn-add-cat" class="outline" type="button">Add</button>
             </div>
           </div>
-        </div>
+        </label>
       </div>
 
       <label>
