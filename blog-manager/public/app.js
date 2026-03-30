@@ -49,23 +49,17 @@ const LIVE_SITE_URL = 'https://gclinton.com';
 const PREVIEW_URL = 'http://localhost:4000';
 
 function getPostUrl(post, baseUrl) {
-  // Extract slug from filename: YYYY-MM-DD-slug.ext
-  const match = post.filename.match(/^\d{4}-\d{2}-\d{2}-(.+)\.(markdown|md)$/);
+  // Extract date and slug from filename: YYYY-MM-DD-slug.ext
+  // Using filename date avoids timezone issues with Date parsing
+  const match = post.filename.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.(markdown|md)$/);
   if (!match) return null;
-  const slug = match[1];
+  const [, year, month, day, slug] = match;
 
-  const d = post.date ? new Date(post.date) : null;
-  if (!d || isNaN(d)) return null;
-
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
-
-  // Jekyll default permalink: /:categories/:year/:month/:day/:title.html
+  // Jekyll lowercases categories in URLs
   let catPath = '';
   const cats = String(post.categories || '').trim();
   if (cats) {
-    catPath = cats.split(/\s+/).join('/') + '/';
+    catPath = cats.split(/\s+/).map(c => c.toLowerCase()).join('/') + '/';
   }
 
   return `${baseUrl}/${catPath}${year}/${month}/${day}/${slug}.html`;

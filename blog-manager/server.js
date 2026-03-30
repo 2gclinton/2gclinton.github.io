@@ -27,7 +27,8 @@ function makeFilename(title, date) {
 function formatDate(date) {
   const d = date ? new Date(date) : new Date();
   const pad = (n) => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())} -0400`;
+  // Use 01:00:00 to avoid GitHub Pages skipping posts with future timestamps
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} 01:00:00 -0400`;
 }
 
 function buildFileContent(title, date, categories, layout, content) {
