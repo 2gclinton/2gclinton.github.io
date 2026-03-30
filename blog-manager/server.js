@@ -511,6 +511,15 @@ app.post('/api/upload', upload.single('image'), (req, res) => {
 
     fs.writeFileSync(path.join(ASSETS_DIR, filename), req.file.buffer);
 
+    // Auto-commit the image so it's included in the next push
+    try {
+      execSync(`git add assets/${filename}`, { cwd: BLOG_ROOT, encoding: 'utf8' });
+      execSync(`git commit -m "Add image: ${filename}"`, { cwd: BLOG_ROOT, encoding: 'utf8' });
+    } catch (gitErr) {
+      // Non-fatal — image is saved, just not committed yet
+      console.error('[upload] git commit failed:', gitErr.message);
+    }
+
     res.status(201).json({ url: `/assets/${filename}` });
   } catch (err) {
     res.status(500).json({ error: err.message });
