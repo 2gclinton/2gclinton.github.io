@@ -3,9 +3,8 @@ layout: page
 title: Resources
 permalink: /resources/
 ---
-
-| Title | Type | Description |
-|-------|------|-------------|
-|Making the Case|[key](https://www.icloud.com/keynote/0a813XYMa24tBaKw0b77iWR4A#Making_the_Case_Overview) - pdf|Slide Deck overview of Reshan and Steve's "Making the Case" -- an excellent Substack to subscribe to for school leaders looking to make and manage change effectively.|
-|       |      |             |
-|       |      |             |
+[Marginal Revolution](https://marginalrevolution.com) -- blog by Tyler Cowen and Alex Tabarrok
+[Hacker News](https://news.ycombinator.com)
+[Huggingface Daily Papers](https://huggingface.co/papers) -- latest AI research
+[JSTOR Daily](https://daily.jstor.org/)
+[AL Daily](https://www.aldaily.com/)

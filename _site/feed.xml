@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-30T11:18:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Greg Clinton, Ideas</title><subtitle>A personal site by Greg Clinton.</subtitle><entry><title type="html">You Can Make Whatever Tool You Need</title><link href="http://localhost:4000/ai/code/operations/2026/03/31/you-can-make-whatever-tool-you-need.html" rel="alternate" type="text/html" title="You Can Make Whatever Tool You Need" /><published>2026-03-31T00:30:00+05:30</published><updated>2026-03-31T00:30:00+05:30</updated><id>http://localhost:4000/ai/code/operations/2026/03/31/you-can-make-whatever-tool-you-need</id><content type="html" xml:base="http://localhost:4000/ai/code/operations/2026/03/31/you-can-make-whatever-tool-you-need.html"><![CDATA[<p>You can make whatever tool you need.</p>
+
+<p>A recent <a href="https://www.nytimes.com/2026/03/29/opinion/ai-claude-chatgpt-gemini-mcluhan.html">NY Times op-ed</a> that a colleague pointed me to frames the current AI moment as a dangerous reckoning with narcissism, mindless acceptance of a media and technology environment that will undermine our humanity. The lament is based on McLuhan’s rendering of the idea that our tools shape us as much or perhaps more than we shape our tools. This is not McLuhan’s idea, but he says it famously. Other examples come from Plato (the Phaedrus dialogue, in which Socrates argues that writing (that amazing technology) will weaken our memories, and reading cannot bring about wisdom in the way that conversation, dialectical thinking, thinking with others, can – books can’t talk to you), Jaron Lanier (<a href="https://www.amazon.in/You-Are-Not-Gadget-Manifesto/dp/0307389979">You Are Not A Gadget</a>, highly recommend this prescient small book), and many more.</p>
+
+<p>In the same vein, Heiddeger spends some time making an interesting distinction that is blurring in the age of AI. He talks about tools as things that are subordinate to human goals. The hammer is ready at hand to be used to hammer on stuff. But the true essence of things is that they are independent and that they are active in the world – they “make” the world (Heiddeger has all sorts of special vocabulary to talk about this, so how I’m paraphrasing it here is not how he wrote or spoke.)</p>
+
+<p>The distinction is that we are either a) living in a world with stuff that we control, that we use to create a world, or b) we <em>find ourselves</em> in the world <em>among</em> these things that are independent of us and <em>have their own active influence</em>. There is a sense that we are losing control, but of course we never had it in the first place.</p>
+
+<p>Anyway, what’s interesting right now is that you can make whatever tool you need if you use Claude Code or something similar. If we agree with McLuhan, Socrates, Lanier and Heidegger, the tools you make will shape you as you use them. But it also means that now you have some control over the tools that shape you, and you can make free decisions about those tools. This is a moment of learning who you are and what you are capable of.</p>
+
+<p>I find this amazing. I have spent the vast majority of my life making things, building social, intellectual, technological, or physical systems. But only recently have I had complete freedom to make ideas tangible in software.</p>
+
+<p><img src="/assets/cleanshot-2026-03-30-at-0829462x.png" alt="CleanShot 2026-03-30 at 08.29.46@2x.png" /></p>
+
+<p>I’m writing this post on a little blog tool that I created last week. It took about 30 minutes to create. I love it. It works just the way I want and need it to. It inspires me to write again. It gets out of my way of my ideas in just the right ways.</p>
+
+<p>Once people understand the capabilities of the tool-creation at their disposal (Claude Code, OpenAI Codex, Replit, Bolt, etc.), they will create novel experiences for themselves and others that magnify the opportunities to learn, connect, and shape their world. In the past month I have created two iOS apps, a Mac app, and about 20 web apps. All these are mostly just learning experiences, not publishable or shareable. (One of them is indeed shareable: it’s an online DnD style game that my son and I co-created using Claude Code and our own interest in narrative theory and world building. You can play it here: <a href="https://www.playvoidspark.com">Voidspark</a>)</p>
+
+<p><img src="/assets/cleanshot-2026-03-30-at-1100372x.png" alt="CleanShot 2026-03-30 at 11.00.37@2x.png" /></p>
+
+<p>But as I watch folks in organizations – schools, but also corporate – struggle to accomplish things like data visualization, transparent tracking of processes, trying to master that complex project management tool and giving up halfway because it doesn’t do the thing you need it to do… I just think, well, that era is over for me. I build the precise tools I need to accomplish my goals. We can do the same thing together as collaborative groups, organizations, schools, societies.
+<br /></p>
+<hr />
+
+<p><br />
+I have many thoughts about the security, design, and compliance implications of this situation. I am trying to design a system to govern the explosion of creative expression in systems and software that is building momentum. More on that in a future post.</p>
+
+<p>A pragmatic thought. What I found that I needed to be successful, and these have held true since the beginning of the AI shift:</p>
+<ul>
+  <li>Basic computer science and coding knowledge – I got this via lots of experimentation, as well as Codecademy, Coursera, and other online learning tools.</li>
+  <li>Advanced AI tool use – I got really good at getting value from the publicly available AI resources. Again, time on task was key here. Intentional practice, experimentation, failure.</li>
+  <li>Good taste – someone told me this is what they call it over in Silicon Valley these days. You can build amazing things, and what you really need more than strong coding skills is good taste. Therefore: invest in skills and experiences to build a sense of good taste. For me, it was travel, reading, consumption of media, and openness to new experiences.</li>
+  <li>Good writing skills – or at least, decent writing skills. Tell AI precisely what you want and you will get better results. (But using it as a space for exploration is also illuminating, if you don’t know what you want.) You can use the AI to help you be a more precise writer.</li>
+</ul>]]></content><author><name></name></author><category term="AI" /><category term="code" /><category term="operations" /><summary type="html"><![CDATA[You can make whatever tool you need.]]></summary></entry><entry><title type="html">The Apparent Magic of AI</title><link href="http://localhost:4000/ai/speculation/2024/09/09/magic-ai.html" rel="alternate" type="text/html" title="The Apparent Magic of AI" /><published>2024-09-09T10:30:00+05:30</published><updated>2024-09-09T10:30:00+05:30</updated><id>http://localhost:4000/ai/speculation/2024/09/09/magic-ai</id><content type="html" xml:base="http://localhost:4000/ai/speculation/2024/09/09/magic-ai.html"><![CDATA[<p>One of the most ridiculous but somehow compelling toys I remember having as a kid was the Magic 8-Ball. It’s still a best-seller around the world (here advertised as “<a href="https://www.coolgift.com/en/Magic-8-Ball">the ball that knows EVERYTHING!</a>”). It looks like a large version of the 8-Ball from billiards, but with a little window on top. Inside the ball is some blue liquid, and floating in the liquid is a multi-sided die with messages on each side: “It is decidedly so” or “No” or “Most Likely.” The idea is that you shake the ball while asking a question. Whichever “answer” appears in the window is the prediction. Magic!</p>
+
+<p><img src="/assets/magic-8-ball.png" alt="Magic 8-Ball" />
+<em><a href="https://www.coolgift.com/en/Magic-8-Ball">Image from Coolgift.com – Magic 8-Ball</a></em></p>
+
+<p>Sometimes working with AI feels like shaking the Magic 8-Ball. For one thing, no one really understands how Large Language Models like ChatGPT work – <a href="https://www.vox.com/unexplainable/2023/7/15/23793840/chat-gpt-ai-science-mystery-unexplainable-podcast">even the engineers who build them are mystified</a>. Yet somehow, after every prompt, an answer “magically” appears, and as time goes on and more work is done to train these systems, the answers get better and better. Shake the system, something happens inside, and then the output appears.</p>
+
+<p>The other reason AI is like a Magic 8-Ball is that it’s no substitute for education and skill. Asking the 8-Ball for information is a silly thing to do; it no more provides insight than any other random throw of the dice. The human must evaluate the output and judge its quality. “The Magic 8-Ball told me that it is “very likely” a sound strategic plan I’m creating here. I can’t see anything wrong with what I’m doing, and can’t really evaluate it anyway, so I think I’ll ignore my critics and go play a round of golf.” In an AI world, where non-human intelligence is flourishing, acquiring foundational knowledge and deep skills is more important than ever. And having good judgment is, too.</p>
+
+<p>Here’s an example: I use AI all the time as a coding partner. But AI can only safely take me as far as my coding knowledge extends, otherwise I will be unable to check the code for flaws. The higher the stakes, the more my own judgment matters. In low stakes environments, I can make games (<a href="https://claude.site/artifacts/487b2ffe-a821-4e7a-b51b-c7d724c36337">here’s a Tetris game I made</a> in about half an hour one day, entirely using Claude.ai) and flow charts, or automation tools for our databases – things that I could do in hours or days, but would rather do in minutes. When the stakes are high, however, thorough knowledge of the field matters a great deal. A friend of mine – far more talented and knowledgeable about programming than I am – recently remarked with some nervousness, “I see posts online about using Claude to build a database and login system by non-technical people, but there’s a lot that goes into security on that front that might be being overlooked.”</p>
+
+<p>This is true for code, for research, for communication, and any other domain where AI might be invoked: there’s a lot that goes into (fill in the blank here) that might be overlooked.</p>
+
+<p>When students use AI, we are finding that the biggest mistake they can make is to “fall asleep at the wheel,” as Wharton professor Ethan Mollick calls it: the moment when you let the AI go where it wants to go without oversight, much like asking the Magic 8-Ball for an answer to a high stakes question and accepting its answer as truth.</p>
+
+<p>For instance, most students are not yet strong analytical or research writers. As educators, we know that encouraging students to practice the craft and strategies of writing helps them become better thinkers and communicators. If a student were to “outsource” the writing to ChatGPT, it would be, <a href="https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art">as writer Ted Chiang recently put it</a>, “like bringing a forklift into the weight room; you will never improve your cognitive fitness that way.”</p>
+
+<p>The standard Magic 8-Ball has twenty possible answers: ten affirmative answers (“As I see it, yes”), five non-committal answers (“Reply hazy, try again”), and five negative answers (“No”). In other words, the Magic 8-Ball, just like ChatGPT, is designed to be “helpful” – half the time it’s going to tell you some version of “Yes.” It’s our job as educators to ensure that students understand this, both for better and for worse, and leverage new forms of intelligence to support their own growth. This is why our faculty have committed to remaining open, curious, experimental, and collaborative when it comes to how AI is used at AISC.</p>
+
+<p>While we can’t predict the future, no matter how many shakes of the Magic 8-Ball we try, we can understand the conditions for change and double down on the core project of learning and growth in a diverse and dynamic world.</p>
+
+<p>This is, as I’ve been told many times in the past, decidedly so.</p>]]></content><author><name></name></author><category term="AI" /><category term="speculation" /><summary type="html"><![CDATA[One of the most ridiculous but somehow compelling toys I remember having as a kid was the Magic 8-Ball. It’s still a best-seller around the world (here advertised as “the ball that knows EVERYTHING!”). It looks like a large version of the 8-Ball from billiards, but with a little window on top. Inside the ball is some blue liquid, and floating in the liquid is a multi-sided die with messages on each side: “It is decidedly so” or “No” or “Most Likely.” The idea is that you shake the ball while asking a question. Whichever “answer” appears in the window is the prediction. Magic!]]></summary></entry><entry><title type="html">Are Students and Teachers Makers?</title><link href="http://localhost:4000/leadership/2024/09/04/are-teachers-makers.html" rel="alternate" type="text/html" title="Are Students and Teachers Makers?" /><published>2024-09-04T10:30:00+05:30</published><updated>2024-09-04T10:30:00+05:30</updated><id>http://localhost:4000/leadership/2024/09/04/are-teachers-makers</id><content type="html" xml:base="http://localhost:4000/leadership/2024/09/04/are-teachers-makers.html"><![CDATA[<p>Recently <a href="https://2gclinton.github.io/leadership/2024/09/03/time-to-be-a-teacher.html">I wrote some thoughts</a> about Paul Graham’s distinction between manager’s schedules and maker’s schedules and how that might impact schedules in a K12 setting.</p>
+
+<p>The questions that were raised by my kind readers included:</p>
+
+<ul>
+  <li>What are students doing from 8-12 on Wednesdays if there are no classes scheduled?</li>
+  <li>Does this work uniformly across the developmental spectrum? In other words, would this work as well in ES as it might in MS or HS?</li>
+  <li>Are teachers and students “makers” in the sense that Paul Graham was talking about? Should we <em>expect</em> teachers and students to be makers in that sense?</li>
+</ul>
+
+<p>All good questions. I’m going to consider them in reverse order.</p>
+
+<p><strong>Are teachers and students “makers” in the sense that Paul Graham was talking about? Should we <em>expect</em> teachers and students to be makers in that sense?</strong></p>
+
+<p>What is a maker? A maker is someone who creates things. (Paul Graham is thinking of writers and programmers.) But more than that, makers are considering their audience, designing some product or experience, mapping a process, and strategically planning toward some future goal. There are many jobs that involve none of these. Teaching involves all of them.</p>
+
+<p>Let’s add the caveat that the <em>best</em> teaching involves all of them. And what I’m trying to describe about time and its impact on mindsets and performance is related to the current state of the field of education. If teachers find it difficult to be makers, or if they have been enculturated to avoid “maker behaviors and mindsets,” then surely the conditions we create in our school communities have something to do with that.</p>
+
+<p>In other words, we could say “teachers aren’t makers, and therefore there is no reason to put in place a maker’s schedule.”</p>
+
+<p>Or, we could say “teachers aren’t makers because they operate within a manager’s schedule. If we want them to have the opportunity to become makers, we could put in place a maker’s schedule.”</p>
+
+<p>The situation is more starkly obvious when it comes to students. I wager there is not a school on the planet that doesn’t have as part of its mission statement some declaration that by the time students are graduated they will be creative, highly skilled, fully self-realized and gloriously optimistic builders of the Future of the World.</p>
+
+<p>That’s a caricature, of course, but it points to a reality: good schools aim to cultivate self-actualized creative problem solvers. It’s why we’re here. It’s what we’re trying to accomplish as educators, because on some level we see the future as driven by young people and we want them to succeed.</p>
+
+<p>So in an obvious way, students ought to be thought of as makers -- even if we want them to be “makers of managers,” the way Paul Graham himself is. Y-Combinator is essentially an incubator for creative, entrepreneurial problem-solvers to build companies, each of which requires great management to succeed. It’s not all “free time.”</p>
+
+<p>Students and teachers ought to be encouraged to be makers. We should do what we can to create the conditions for this to happen.</p>
+
+<p><strong>Does this work uniformly across the developmental spectrum? In other words, would this work as well in ES as it might in MS or HS?</strong></p>
+
+<p>I hadn’t thought about this while writing the original post, which is a way of admitting that critical judgments are necessary for decent thinking to happen -- so, thank you to the people who asked. My original thinking was very much in a high school mindset. I pictured high schoolers growing into university students. But what about younger students?</p>
+
+<p>I don’t think makers look the same across developmental zones, just as they don’t look the same across professional fields. Conditions for success will be different. At first I imagined that the youngest students would require the most scaffolding for their use of time, and that the scaffolding would be stripped away as students became more mature and gained more skill overall.</p>
+
+<p>Ironically, I observe the opposite trend. Students in an Early Years classroom are given broad freedom to explore, experience, organically collaborate, discover. Students in a typical Elementary classroom are also encouraged to explore, but one notices an uptick in how time is structured, how attention is guided. Disciplines of study are introduced -- math, reading, social studies. “Play” starts to get cordoned off from “academics” in a more organized way. The manager’s schedule is introduced.</p>
+
+<p>By Middle School, the students are expected to have internalized the manager’s schedule. Again, none of what I’m saying is controversial -- this is just kind of “how school works.” So, Middle Schoolers manage their own individual class schedule, moving between rooms as required, rather than following with a single cohort, like an ES Homeroom.</p>
+
+<p>And finally, in High School, students are doing coursework with external evaluations as the key outcome. IB and AP schedules are set by external agencies, and learning needs to align not only with internal management schedules, but external timelines as well.</p>
+
+<p>It makes me think of the way Donella Meadows describes the counterintuitive nature of leverage points in a complex system.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> Identifying leverage points -- “places in a system where a small change could lead to a large shift in behavior” -- is not usually the problem. Here’s an easy one: Time is a leverage point in the complex system of schools, pretty obviously. Teachers and students talk about it <em>all the time</em>. A lot of the early discussion of the impact of AI on the field of education, for example, was about how it will save teachers time so they can do “more important stuff.”</p>
+
+<p>The problem is that “although people deeply involved in a system often know intuitively where to find leverage points, more often than not they push the change in the <em>wrong direction</em>.”<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> This is a strange thing to say, but it seems to me that our attitude to time (and perhaps to “productivity” in a “professional field” as well, I’m not sure -- I need to think about that more) may be an instructive example of this phenomenon.</p>
+
+<p>So, to come back to the current question: No, I don’t think this re-evaluation of the nature of time will look the same at every level and in every situation.</p>
+
+<p><strong>What are students doing from 8-12 on Wednesdays if there are no classes scheduled?</strong></p>
+
+<p>My thought experiment left a day a week of unscheduled maker time. What are the students doing during this time? I don’t know, and since I’ve determined that it would look different in different levels, I imagine one of a number of different answers to the question:</p>
+
+<ul>
+  <li>Interdisciplinary, inquiry or project-based work (ES, MS, HS)</li>
+  <li>Club activities (MS, HS)</li>
+  <li>Personal projects (MS, HS)</li>
+  <li>Mentor groups (MS, HS)</li>
+</ul>
+
+<p>Some or all of these require teacher involvement. Well, so how are teachers given the time/space to be makers themselves? Again, I don’t know, but I imagine some cycle in which some teachers are “on” while others are “off,” some teachers are coaching and others are designing or collaborating, and some teachers are teaching (like in the ES). It could be that ES teachers don’t have as much maker time as others since they are going to be doing more on-duty student management. In which case, perhaps more resources are devoted to coaching and mentorship in ES, to support these activities and ensure that smaller maker times have big impacts. Maybe in ES, class groups are combined for maker periods so that homeroom teachers are given their own maker time.</p>
+
+<p>I’m not certain what this looks like in reality. (But I suspect that with some good, solid maker time, I could dream up a system -- others have done it.) And I also know that “100% manager’s schedules” doesn’t serve the needs of 100% of students and teachers, which is what motivates me to think these things through as thoroughly as I can.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Donella Meadows. <em>Thinking in Systems: A Primer</em>. 2008. pg. 145-6. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Author’s emphasis. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="leadership" /><summary type="html"><![CDATA[Recently I wrote some thoughts about Paul Graham’s distinction between manager’s schedules and maker’s schedules and how that might impact schedules in a K12 setting.]]></summary></entry><entry><title type="html">Time to Be a Teacher</title><link href="http://localhost:4000/leadership/2024/09/03/time-to-be-a-teacher.html" rel="alternate" type="text/html" title="Time to Be a Teacher" /><published>2024-09-03T10:30:00+05:30</published><updated>2024-09-03T10:30:00+05:30</updated><id>http://localhost:4000/leadership/2024/09/03/time-to-be-a-teacher</id><content type="html" xml:base="http://localhost:4000/leadership/2024/09/03/time-to-be-a-teacher.html"><![CDATA[<p>“There are two types of schedule,” Paul Graham writes, “which I’ll call the manager’s schedule and the maker’s schedule.”<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> When he thinks of managers’ schedules, he thinks of hour-long chunks of time that can be mixed and matched, and “by default you change what you’re doing every hour.” This makes it possible to say to someone, just go look at my calendar and find a slot so we can meet. Meetings are often <em>speculative</em>: exploratory sessions where managers try to figure out if their projects and goals align with someone else’s. This serves managers because they need to build alliances and direct resources and develop relationships. “Most powerful people are on the manager’s schedule. It’s the schedule of command.”</p>
+
+<p>The alternative is the maker’s schedule. In Graham’s world, those are writers or programmers. Makers think in longer time horizons -- half days at least, but ideally full days or even weeks. Someone calling them into a meeting in the middle of that long chunk of time can “blow a whole afternoon, by breaking it into two pieces each too small to do anything hard in. Plus you have to remember to go to the meeting.”</p>
+
+<p>These time horizons matter. If a maker feels they won’t have extended periods of time, they will be less likely to start anything ambitious or hard; they will be slightly depressed at the notion that their day is being fragmented. “Ambitious projects are by definition close to the limits of your capacity. A small decrease in morale is enough to kill them off.”</p>
+
+<p>As a school administrator who has spent the majority of my career in the classroom, but have also had the opportunity to spend 5 years in academia (as a researcher and college instructor), and who also has school-aged children, I’ve seen this play out in many different ways. There are multiple goals that have to be understood, each from their own perspective.</p>
+
+<p>Administrators are solidly on the manager’s schedule. The longer anyone spends in administration, the higher the likelihood they forget what it means to be a maker, or to enjoy the benefits of a maker’s schedule. They will, however, fondly remember the feeling of spending time on what they know is most important (ie. often not what is urgent).</p>
+
+<p>Many teachers are makers beholden to a manager’s schedule.<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> And later I will suggest that students are the same. If we take this idea seriously, it should have profound effects on how we understand the work day, work week, and academic calendar.</p>
+
+<p>The school day as it is traditionally framed is a manager’s schedule. It comes from the top down. By default, you change what you’re doing every hour. The schedule is determined in advance and every minute is accounted for. From the manager’s perspective, this makes perfect sense and has a strong justification: spreading out the time each teacher has to teach each class, and correspondingly the time each student has for each class, enables classes to proceed at a similar pace, and everyone reaches the finish line at the same time. The business case for operating schools on a manager’s schedule is really very rational and coherent.<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+<p>If we recognize that teachers and students are makers rather than managers, we might recognize that a compromise should be struck. Higher education has reached this compromise, to some extent. Students and teachers engage in far fewer courses than in primary or secondary school, and have far more flexible time -- sometimes entire days -- to engage with material and make of it what they will.</p>
+
+<p>First year university students who encounter this freedom for the first time will often “waste” it. The abundance of “free” time is not something they are accustomed to, since their entire lives have been spent on a manager’s schedule. Now they are treated like makers, and it’s a radical shift.</p>
+
+<p>University professors are almost embarrassingly free to just <em>think</em>. Sometimes they aren’t expected to teach anything at all. Sometimes they advise a handful of students, or lead a single seminar course. From the classroom teacher’s perspective, this is an outrageous luxury. But if you treat teachers like makers, which universities do in the case of tenure-track faculty (we need not go down the road of the treatment of adjunct instructors), then you end up with a model where teachers have far fewer students and much more time to do the hard work of researching, writing, experimenting, and thinking, which is highly creative.</p>
+
+<p>Maybe it’s obvious but still worth noting that most K-12 schools can’t operate like universities. Their students have not developed enough self-direction to operate independently all day. Or have they? Montessori schools famously give students all kinds of freedom, even at a very young age. I don’t know enough about the learning outcomes of Montessori students, but I know that the model has stuck around for a while, so some people presumably benefit from it. One could reasonably make the case that some students haven’t developed the skills for self-direction because we haven’t given them enough opportunities to develop them.</p>
+
+<p>But teachers, adult professionals, have indeed developed those skills. And their work is creative, difficult, and requires uninterrupted time. They are makers. If teachers had maker’s schedules, they would have more ambitious professional goals. They would set themselves higher standards. They would feel “time rich” and set their aim toward more creative or innovative projects. They’d be happier.</p>
+
+<p>The compromise is to establish those spacious time zones within the school day or school week, for teachers and students both.</p>
+
+<p>For example: What happens if one day out of five is entirely devoted to self-directed work? Let’s say it’s on Wednesday every week. Every Wednesday from morning to noon, there are no meetings, no scheduled appointments, no classes. This is maker time. Managers impinge on this time at their own peril; it is sacred. (And if they admit it to themselves, administrators would love this time, too.) After lunch, teachers set office hours and are available to mentor students, but are still otherwise unfettered by a manager’s schedule. No courses are being taught on Wednesdays. Everyone is “at work,” but their time horizons reach all the way to Thursday. The possibilities for creative and ambitious thinking expand.</p>
+
+<p>Jane McGonigal writes about this sense of being time rich or time poor:</p>
+
+<blockquote>
+  <p>“When we feel <em>time-poor</em>… it’s like being stuck in a tiny, depressing room with no windows. We shrink ourselves and imagine less. We adopt “minimal” goals, which means we try to do just enough to avoid a bad outcome. As one team of expert psychologists put it: “A maximal goal reflects the most that one could wish for, whereas a minimal goal reflects bare necessities or the least one could comfortably tolerate.”</p>
+
+  <p>Do you have a sense of whether you’re waking up each day focused on maximal or minimal goals? Whether you’re feeling time-rich or time-poor?”<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
+</blockquote>
+
+<p>As a teacher, learner, leader, and parent, I know exactly how I want the learners at my school to feel: time-rich, focused on maximal goals. Our collective understanding of time and the practice of being a learner -- that teachers and students are makers on manager’s schedules -- may allow us to achieve that.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Paul Graham, “Maker’s Schedule, Manager’s Schedule.” July 2009. https://paulgraham.com/makersschedule.html <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Some teachers are managers and prefer that mode. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Thanks to Reshan Richards for pointing me to the Graham article, and for his writing on “making the case”. https://makingthecase.substack.com/p/introducing-making-the-case <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Jane McGonigal. <em>Imaginable: How to Create a Hopeful Future</em>. 2023. pg. 8-9 <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="leadership" /><summary type="html"><![CDATA[“There are two types of schedule,” Paul Graham writes, “which I’ll call the manager’s schedule and the maker’s schedule.”1 When he thinks of managers’ schedules, he thinks of hour-long chunks of time that can be mixed and matched, and “by default you change what you’re doing every hour.” This makes it possible to say to someone, just go look at my calendar and find a slot so we can meet. Meetings are often speculative: exploratory sessions where managers try to figure out if their projects and goals align with someone else’s. This serves managers because they need to build alliances and direct resources and develop relationships. “Most powerful people are on the manager’s schedule. It’s the schedule of command.” Paul Graham, “Maker’s Schedule, Manager’s Schedule.” July 2009. https://paulgraham.com/makersschedule.html &#8617;]]></summary></entry><entry><title type="html">AI is a UI Problem</title><link href="http://localhost:4000/speculation/2024/09/02/AI-UI-problem.html" rel="alternate" type="text/html" title="AI is a UI Problem" /><published>2024-09-02T10:30:00+05:30</published><updated>2024-09-02T10:30:00+05:30</updated><id>http://localhost:4000/speculation/2024/09/02/AI-UI-problem</id><content type="html" xml:base="http://localhost:4000/speculation/2024/09/02/AI-UI-problem.html"><![CDATA[<p>A lot of people think that AI is all about intelligence. They believe that if the models get smarter, the Revolution will come from a massive influx of freely available intelligence on tap. Sounds plausible.</p>
+
+<p>It used to take a couple hours to coax GPT-3 to produce a passable IB Literature essay, in fits and starts. The other day I built <a href="https://claude.site/artifacts/487b2ffe-a821-4e7a-b51b-c7d724c36337">a playable version of Tetris</a> with Claude in an “artifact.” Took me about 40 minutes.</p>
+
+<p><img src="/assets/Tetris.png" alt="Homemade Tetris game" title="Made with Claude by Greg Clinton." /></p>
+
+<p>But so what?</p>
+
+<p>It means that the Revoluation in AI is currently happening in UI design and UX integration (UI is the user interface, how we interact with something; UX is the experience we have when using something). The distance between my idea and its execution is shrinking, not because the models are smarter, though they have gotten smarter over time, but because I’m interacting with them differently.</p>
+
+<p>If you follow AI news, you are bombarded by “AI in XYZ” where “XYZ” is pretty much everything. AI in the search field on WhatsApp. AI in Github. AI in watches and glasses and odd little boxes and broaches. <a href="https://www.kickstarter.com/projects/genmon/poem-1-the-ai-poetry-clock/rewards">AI in e-ink poetry clocks</a> (and if you think I haven’t bought one of those, and was tempted to buy two, and am eagerly awaing the Kickstarter shipment, think again, dear reader.) <a href="https://www.flintk12.com">AI in schools.</a></p>
+
+<p>Many people are trying to solve the AI-UI problem. The question is not “how much smarter will the models get?” The question is “how will we most comfortably, successfully, delightfully, and profitably interact with the models?”</p>
+
+<p>Some companies are getting this right. Anthropic’s “Projects” features is a good example – you can create a foundation of knowledge, even shared among multiple users. As your project evolves and you add new documents to this foundation, the chats produce new results. Anthropic’s “artifacts”, as I already noted, are another example of a new UI that changes the nature of the tool.</p>
+
+<p><a href="https://www.apple.com/in/apple-intelligence/">Apple’s “Apple Intelligence”</a> is rumored to be yet another UI/UX shift in which AI is fully embedded in the device and its operation, notably privacy-first and on-device-when-possible. And to be clear, when I say that the Revolution is being wrought in the world of user interfaces, I don’t mean that engineering has nothing to do with it. No doubt there is significant engineering muscle behind this new user experience. This is Apple’s point, over and over again: that UI/UX and engineering are best served as a single product. We’ll see if they’re right when it comes to AI-UI.</p>
+
+<p>Some companies are getting this wrong. Google’s AI powered search results are painful and unwelcome. The failure of <a href="https://humane.com/">Humane’s “pin”</a> and the <a href="https://www.rabbit.tech/">Rabbit R1</a> are now legendary.</p>
+
+<p>What impact will this have on schools, on young people, on teaching and learning?</p>
+
+<p>A small but mighty company that I’ve interacted with over the past year, <a href="https://www.flintk12.com">Flint</a>, is attempting to solve the UI/UX problem for school settings. Schools can’t afford to let students loose with these powerful models and hope they’ll use them responsibly. There is evidence – shocker! – that <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486">letting an AI do your homework will result in you learning less</a>. So Flint offers students customized interactions with AI – fun, interesting, challenging, designed by the teacher with a lot of useful assistance from the tool itself – that also allow teachers and the school administration full visibility into how students use AI. This means we can guide students to productive uses and habits. Same underlying models, better UI.</p>
+
+<p>A highly aniticipated release in the AI industry is Advanced Voice Mode in ChatGPT. If you watch <a href="https://www.youtube.com/watch?v=1uM8jhcqDP0">the demonstrations that OpenAI released</a> a couple months ago, it’s clear that AVM achieves something <em>new</em> without being all that new in terms of IQ. It’s just GPT-4o with some fancy voice technology.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> The voice is real time, startlingly life-like, cloyingly positive (but also, with the addition of ScarJo’s huskiness, comfortingly alluring, which is an important aspect of the product), and, of course, smarter than you.</p>
+
+<p>Again, this is not a revolutionary intelligence product – that part is old news. This is a new UI, a new way to interact.</p>
+
+<p>The UI shifts happening now – from chatbots that require a lot of effort to drive, to voice and personalized device interfaces that “know” you and can “talk” to you – will be the ingredients that cause the biggest shifts in perceptions and use.</p>
+
+<p>People, including children, will immediately form intimate bonds with this new creature. They will experience a heightened emotional response when conversing with it – including in the context of school or learning. (Greater emotional responses will result in deeper learning opportunities.) It will be a machine that can legitimately cajole you into doing a little more practice before you log off and fire up the Xbox. (Like, you’ll want to please it so you’ll put in a few more minutes on the math drills.) It will be a machine that can legitimately talk you through a tough situation. Again, GPT-4o can already do this, but only in the form of long paragraphs, and many young people aren’t as facile with long-form text as their elders.</p>
+
+<p>It will also, of course, be yet another avenue for addiction, loneliness, and manipulation by forces beyond a young person’s control. But that’s true of all technology, so it’s not really worth covering here in greater depth than it already has been by others. Suffice to say: legitimately dangerous, like a power tool.</p>
+
+<p>The main point is that, good or bad, helpful or harmful, AI is a UI problem.</p>
+
+<p>The Singularity may simply happen at the point when we wake up, head to school or work with a sense of anticipation, to collaborate with our AI friends, who are so helpful, who always apologize for the confusion and thank us for pointing out their error, and who never get tired of listening to our hopes, sorrows, bad poems, dreams.</p>
+
+<p>The Singularity is a really, really successful AI UI.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I’m sure I’m unfairly minimizing the engineering efforts that allow this to happen, but the point is that the underlying model hasn’t changed. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="speculation" /><summary type="html"><![CDATA[A lot of people think that AI is all about intelligence. They believe that if the models get smarter, the Revolution will come from a massive influx of freely available intelligence on tap. Sounds plausible.]]></summary></entry><entry><title type="html">Claude Pressure Simulator</title><link href="http://localhost:4000/ai/code/2024/07/11/claude-pressure-sim.html" rel="alternate" type="text/html" title="Claude Pressure Simulator" /><published>2024-07-11T20:25:10+05:30</published><updated>2024-07-11T20:25:10+05:30</updated><id>http://localhost:4000/ai/code/2024/07/11/claude-pressure-sim</id><content type="html" xml:base="http://localhost:4000/ai/code/2024/07/11/claude-pressure-sim.html"><![CDATA[<p>Claude.ai recently released the ability to publish “artifacts” – which are live views of the code (or graphs, or drawings, or outlines, etc.) that it produces based on a user prompt.</p>
+
+<p>Way back when, in the good old days of last year, when getting ChatGPT to help me code interactive websites, I got it to help me develop a simulation of gas pressure in a container. We were working in HTML, CSS and JS. The implementation was simple – open the file in a browser.</p>
+
+<p>Here is that simulation:</p>
+<html>
+<head>
+    <title>Gas Pressure Simulator</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #game-container {
+            text-align: center;
+            margin: auto;
+            width: 520px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        #bps-display {
+            padding-top: 10px;
+        }
+
+        #gameCanvas {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Gas Pressure Simulator</h1>
+        <button id="start-button">Start</button>
+        <button id="reset-button">Reset</button>
+        <button id="pause-button">Pause</button>
+        <div id="bps-display">Bounces per Second: <span id="bps-value">0</span></div>
+        <div id="bounce-counter">Bounce Count: <span id="bounce-count">0</span></div>
+        <h3>Temperature: <span id="temperature-value">25</span>°C</h3>
+        <input type="range" id="temperature-slider" min="0" max="100" value="25" />
+        <canvas id="gameCanvas" width="500" height="500"></canvas>
+        <h2>Bounce Count Over Time</h2>
+        <canvas id="bounceChart" width="500" height="200"></canvas>
+    </div>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        const bounceCountElement = document.getElementById('bounce-count');
+
+        let particles = [];
+        let isRunning = false;
+        let bounceCount = 0;
+        let timeElapsed = 0;
+        let temperature = 25; // Default temperature set to 25°C
+        let speedMultiplier = 2;
+        let isPaused = false;
+        let graphUpdateInterval;
+        let prevBounceCount = 0;
+let prevTime = 0;
+        const timeData = [];
+        const bounceData = [];
+
+        // Initialize Chart.js
+        const bounceChartCtx = document.getElementById('bounceChart').getContext('2d');
+        const bounceChart = new Chart(bounceChartCtx, {
+            type: 'line',
+            data: {
+                labels: timeData,
+                datasets: [{
+                    label: 'Bounce Count',
+                    data: bounceData,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1,
+                    fill: false
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        type: 'linear',
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        function initializeParticles() {
+            particles = [];
+            bounceCount = 0;
+            bounceCountElement.textContent = bounceCount;
+            for (let i = 0; i < 100; i++) {
+                particles.push({
+                x: Math.random() * 250,
+                y: Math.random() * 500,
+                dx: (Math.random() * 5 - 2) * speedMultiplier,
+                dy: (Math.random() * 5 - 2) * speedMultiplier
+                });
+            }
+        }
+
+        function drawParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = 'blue';
+            particles.forEach(p => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 5, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        }
+
+        function updateParticles() {
+            particles.forEach(p => {
+                const newX = p.x + p.dx;
+                const newY = p.y + p.dy;
+
+            if (newX < 0 || newX > 500) {
+            p.dx = -p.dx;
+            bounceCount++;
+            } else {
+            p.x = newX;
+            }
+
+            if (newY < 0 || newY > 500) {
+            p.dy = -p.dy;
+            bounceCount++;
+            } else {
+            p.y = newY;
+            }
+        });
+            bounceCountElement.textContent = bounceCount;
+        }
+
+        function updateParticleSpeed() {
+    const maxSpeed = 10; // Maximum speed at 100°C
+    const minSpeed = 0;  // Minimum speed at 0°C
+    const tempFactor = (maxSpeed - minSpeed) * (temperature / 100) + minSpeed;
+    particles.forEach(p => {
+        p.dx = p.dx / speedMultiplier * tempFactor;
+        p.dy = p.dy / speedMultiplier * tempFactor;
+    });
+    speedMultiplier = tempFactor;
+}
+
+     /*   function updateSpeedMultiplier() {
+        speedMultiplier = temperature / 100;
+        document.getElementById('temperature-value').textContent = temperature;
+        }
+    */
+        
+        function updateBouncesPerSecond() {
+            const currentTime = Date.now();
+            const deltaTime = (currentTime - prevTime) / 1000; // Time in seconds
+            const deltaBounces = bounceCount - prevBounceCount;
+            
+            const bps = (deltaBounces / deltaTime).toFixed(2);
+            document.getElementById('bps-value').textContent = bps;
+            
+            prevBounceCount = bounceCount;
+            prevTime = currentTime;
+        }
+
+        function updateGraph() {
+            timeElapsed += 0.5;
+            timeData.push(timeElapsed);
+            bounceData.push(bounceCount);
+            bounceChart.update();
+        }
+
+        function gameLoop() {
+            if (isRunning && !isPaused) {
+            drawParticles();
+            updateParticles();
+            requestAnimationFrame(gameLoop);
+            } else if (isRunning && isPaused) {
+            requestAnimationFrame(gameLoop);
+            }
+        }
+
+        document.getElementById('start-button').addEventListener('click', () => {
+            if (!isRunning) {
+                isRunning = true;
+                gameLoop();
+                graphUpdateInterval = setInterval(() => {
+                if (!isPaused) {
+                    updateGraph();
+                    updateBouncesPerSecond();
+                }
+                }, 500);
+            }
+            prevTime = Date.now();
+        });
+
+        document.getElementById('reset-button').addEventListener('click', () => {
+            isRunning = false;
+            isPaused = false; // Reset pause state
+            clearInterval(graphUpdateInterval); // Clear graph update interval
+            initializeParticles();
+            drawParticles();
+            bounceChart.update();
+        });
+        
+        document.getElementById('temperature-slider').addEventListener('input', (event) => {
+    temperature = parseInt(event.target.value);
+    document.getElementById('temperature-value').textContent = temperature;
+    updateParticleSpeed();
+    drawParticles();
+});
+        
+        document.getElementById('pause-button').addEventListener('click', () => {
+            isPaused = !isPaused;
+            document.getElementById('pause-button').textContent = isPaused ? 'Resume' : 'Pause';
+        });
+
+        initializeParticles();
+        drawParticles();
+    </script>
+</body>
+</html>
+
+<p>Claude built me a replica, and I added a few features (and dispensed with the live graph, for the sake of proving the concept.) This took only two prompts. The first to get the basic simulation up and running, and the second to add the pressure gauge.</p>
+
+<p>Here’s the HTML version rewritten using Claude: <a href="https://claude.site/artifacts/281d0e5b-bdb2-4066-8fd5-fc628afa960f">Claude rewrite of ChatGPT Pressure Simulation</a></p>
+
+<p>Here is the React version by Claude: <a href="https://claude.site/artifacts/557b9e66-524c-4558-be81-6da952727456">Claude React Pressure Simulation</a></p>]]></content><author><name></name></author><category term="AI" /><category term="code" /><summary type="html"><![CDATA[Claude.ai recently released the ability to publish “artifacts” – which are live views of the code (or graphs, or drawings, or outlines, etc.) that it produces based on a user prompt.]]></summary></entry></feed>
