@@ -40,6 +40,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+future: true
+
 exclude:
 - .sass-cache/
 - .jekyll-cache/
@@ -52,3 +54,4 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 - blog-manager/
+- docs/
