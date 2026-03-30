@@ -188,6 +188,55 @@ table td {
   font-size: 0.88rem;
 }
 
+/* Preview server controls */
+.preview-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.preview-dot.stopped {
+  background: #ccc;
+}
+
+.preview-dot.starting {
+  background: #f0ad4e;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.preview-dot.ready {
+  background: #28a745;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.btn-preview {
+  font-size: 0.78rem !important;
+  padding: 0.3rem 0.7rem !important;
+}
+
+.btn-preview.preview-active {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+/* View links in dashboard */
+.view-link {
+  text-decoration: none;
+  color: var(--pico-primary);
+  font-size: 0.75rem;
+}
+
+.view-link.disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
 /* EasyMDE — fix invisible toolbar + taller editor */
 .EasyMDEContainer .CodeMirror {
   min-height: 350px;

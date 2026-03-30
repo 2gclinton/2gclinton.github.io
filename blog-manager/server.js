@@ -529,7 +529,31 @@ app.use((err, req, res, next) => {
 
 // --- Git sync (commit + push) ---
 
-const { execSync } = require('child_process');
+const { execSync, spawn } = require('child_process');
+
+// --- Jekyll preview server management ---
+let jekyllProcess = null;
+let jekyllReady = false;
+
+function getJekyllStatus() {
+  return {
+    running: jekyllProcess !== null && !jekyllProcess.killed,
+    ready: jekyllReady,
+    url: 'http://localhost:4000',
+  };
+}
+
+// Clean up Jekyll process on exit
+function killJekyll() {
+  if (jekyllProcess && !jekyllProcess.killed) {
+    jekyllProcess.kill();
+    jekyllProcess = null;
+    jekyllReady = false;
+  }
+}
+process.on('exit', killJekyll);
+process.on('SIGINT', () => { killJekyll(); process.exit(); });
+process.on('SIGTERM', () => { killJekyll(); process.exit(); });
 
 app.post('/api/sync', (req, res) => {
   try {
@@ -553,6 +577,69 @@ app.post('/api/sync', (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message || 'Sync failed' });
   }
+});
+
+// --- Jekyll preview server ---
+
+app.get('/api/preview/status', (req, res) => {
+  res.json(getJekyllStatus());
+});
+
+app.post('/api/preview/start', (req, res) => {
+  if (jekyllProcess && !jekyllProcess.killed) {
+    return res.json({ message: 'Preview server already running', ...getJekyllStatus() });
+  }
+
+  jekyllReady = false;
+  const rubyBin = '/opt/homebrew/opt/ruby/bin';
+  const gemBin = '/opt/homebrew/lib/ruby/gems/4.0.0/bin';
+  const envPath = `${rubyBin}:${gemBin}:${process.env.PATH}`;
+  const previewGemfile = path.join(__dirname, 'Gemfile.preview');
+
+  jekyllProcess = spawn('jekyll', ['serve', '--drafts', '--future', '--port', '4000', '--host', 'localhost'], {
+    cwd: BLOG_ROOT,
+    stdio: ['ignore', 'pipe', 'pipe'],
+    env: { ...process.env, PATH: envPath, BUNDLE_GEMFILE: previewGemfile },
+  });
+
+  jekyllProcess.stdout.on('data', (data) => {
+    const output = data.toString();
+    console.log('[jekyll stdout]', output);
+    if (output.includes('Server running') || output.includes('Server address')) {
+      jekyllReady = true;
+    }
+  });
+
+  jekyllProcess.stderr.on('data', (data) => {
+    const output = data.toString();
+    console.log('[jekyll stderr]', output);
+    if (output.includes('Server running') || output.includes('Server address')) {
+      jekyllReady = true;
+    }
+  });
+
+  jekyllProcess.on('close', (code) => {
+    console.log('[jekyll] process exited with code', code);
+    jekyllProcess = null;
+    jekyllReady = false;
+  });
+
+  jekyllProcess.on('error', (err) => {
+    console.error('[jekyll] spawn error:', err.message);
+    jekyllProcess = null;
+    jekyllReady = false;
+  });
+
+  res.json({ message: 'Preview server starting...', ...getJekyllStatus() });
+});
+
+app.post('/api/preview/stop', (req, res) => {
+  if (!jekyllProcess || jekyllProcess.killed) {
+    return res.json({ message: 'Preview server is not running', ...getJekyllStatus() });
+  }
+
+  killJekyll();
+  res.json({ message: 'Preview server stopped', ...getJekyllStatus() });
 });
 
 // --- Start server ---

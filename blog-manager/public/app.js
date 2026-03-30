@@ -42,6 +42,36 @@ function escapeHtml(str) {
 }
 
 /* ======================================================
+   Section 1b: Post URL Helpers
+   ====================================================== */
+
+const LIVE_SITE_URL = 'https://gclinton.com';
+const PREVIEW_URL = 'http://localhost:4000';
+
+function getPostUrl(post, baseUrl) {
+  // Extract slug from filename: YYYY-MM-DD-slug.ext
+  const match = post.filename.match(/^\d{4}-\d{2}-\d{2}-(.+)\.(markdown|md)$/);
+  if (!match) return null;
+  const slug = match[1];
+
+  const d = post.date ? new Date(post.date) : null;
+  if (!d || isNaN(d)) return null;
+
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+
+  // Jekyll default permalink: /:categories/:year/:month/:day/:title.html
+  let catPath = '';
+  const cats = String(post.categories || '').trim();
+  if (cats) {
+    catPath = cats.split(/\s+/).join('/') + '/';
+  }
+
+  return `${baseUrl}/${catPath}${year}/${month}/${day}/${slug}.html`;
+}
+
+/* ======================================================
    Section 2: View Routing
    ====================================================== */
 
@@ -87,6 +117,20 @@ async function loadDashboard() {
     const statusClass = post.status === 'published' ? 'badge-published' : 'badge-draft';
     const statusLabel = post.status === 'published' ? 'Published' : 'Draft';
 
+    // View link
+    let viewLink = '';
+    if (post.status === 'published') {
+      const liveUrl = getPostUrl(post, LIVE_SITE_URL);
+      if (liveUrl) {
+        viewLink = `<a href="${liveUrl}" target="_blank" rel="noopener" class="action-btn outline view-link">View Live</a>`;
+      }
+    } else {
+      const previewUrl = getPostUrl(post, PREVIEW_URL);
+      if (previewUrl) {
+        viewLink = `<a href="${previewUrl}" target="_blank" rel="noopener" class="action-btn outline view-link preview-link">Preview</a>`;
+      }
+    }
+
     let actionButtons = '';
     if (post.status === 'draft') {
       actionButtons += `<button class="action-btn outline" data-action="publish" data-filename="${escapeHtml(post.filename)}">Publish</button>`;
@@ -101,7 +145,7 @@ async function loadDashboard() {
       <td>${escapeHtml(dateStr)}</td>
       <td>${escapeHtml(String(post.categories || ''))}</td>
       <td><span class="badge ${statusClass}">${statusLabel}</span></td>
-      <td>${actionButtons}</td>
+      <td>${viewLink}${actionButtons}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -109,6 +153,14 @@ async function loadDashboard() {
 
 // Event delegation on posts table
 document.getElementById('posts-table').addEventListener('click', async e => {
+  // Open view links in a new tab
+  const viewLink = e.target.closest('.view-link');
+  if (viewLink) {
+    e.preventDefault();
+    window.open(viewLink.href, '_blank');
+    return;
+  }
+
   e.preventDefault();
 
   // Edit link
@@ -501,7 +553,79 @@ document.getElementById('btn-back-pages').addEventListener('click', e => {
 });
 
 /* ======================================================
-   Section 7: Init
+   Section 7: Preview Server
+   ====================================================== */
+
+let previewRunning = false;
+let previewPollInterval = null;
+
+async function updatePreviewStatus() {
+  const status = await api('/api/preview/status');
+  if (!status) return;
+
+  previewRunning = status.running;
+  const btn = document.getElementById('btn-preview-toggle');
+  const dot = document.getElementById('preview-dot');
+
+  if (status.running && status.ready) {
+    btn.textContent = 'Stop Preview';
+    btn.classList.add('preview-active');
+    dot.className = 'preview-dot ready';
+    dot.title = 'Preview server running at localhost:4000';
+    // Enable preview links
+    document.querySelectorAll('.preview-link').forEach(el => {
+      el.classList.remove('disabled');
+    });
+  } else if (status.running) {
+    btn.textContent = 'Starting...';
+    btn.disabled = true;
+    dot.className = 'preview-dot starting';
+    dot.title = 'Preview server starting...';
+  } else {
+    btn.textContent = 'Start Preview';
+    btn.classList.remove('preview-active');
+    btn.disabled = false;
+    dot.className = 'preview-dot stopped';
+    dot.title = 'Preview server stopped';
+    // Disable preview links
+    document.querySelectorAll('.preview-link').forEach(el => {
+      el.classList.add('disabled');
+    });
+  }
+
+  // Once ready, slow down polling
+  if (status.running && status.ready) {
+    btn.disabled = false;
+    if (previewPollInterval) {
+      clearInterval(previewPollInterval);
+      previewPollInterval = setInterval(updatePreviewStatus, 10000);
+    }
+  }
+}
+
+document.getElementById('btn-preview-toggle').addEventListener('click', async () => {
+  const btn = document.getElementById('btn-preview-toggle');
+  btn.disabled = true;
+
+  if (previewRunning) {
+    await api('/api/preview/stop', { method: 'POST' });
+    showToast('Preview server stopped');
+  } else {
+    await api('/api/preview/start', { method: 'POST' });
+    showToast('Preview server starting...');
+    // Poll faster while starting
+    if (previewPollInterval) clearInterval(previewPollInterval);
+    previewPollInterval = setInterval(updatePreviewStatus, 1500);
+  }
+
+  await updatePreviewStatus();
+});
+
+/* ======================================================
+   Section 8: Init
    ====================================================== */
 
 loadDashboard();
+updatePreviewStatus();
+// Poll preview status periodically
+previewPollInterval = setInterval(updatePreviewStatus, 10000);
