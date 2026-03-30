@@ -579,6 +579,26 @@ app.post('/api/sync', (req, res) => {
   }
 });
 
+// --- Analytics (GoatCounter) ---
+
+const GOATCOUNTER_SITE = 'gclinton.goatcounter.com';
+
+app.get('/api/stats', async (req, res) => {
+  try {
+    const response = await fetch(`https://${GOATCOUNTER_SITE}/counter/TOTAL.json`);
+    if (!response.ok) {
+      return res.status(502).json({ error: 'Could not fetch analytics' });
+    }
+    const data = await response.json();
+    res.json({
+      pageviews: data.count || '0',
+      visitors: data.count_unique || '0',
+    });
+  } catch (err) {
+    res.status(502).json({ error: err.message });
+  }
+});
+
 // --- Jekyll preview server ---
 
 app.get('/api/preview/status', (req, res) => {

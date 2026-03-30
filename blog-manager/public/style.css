@@ -188,6 +188,44 @@ table td {
   font-size: 0.88rem;
 }
 
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  font-size: 0.82rem;
+}
+
+.stat {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.stat-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.stat-label {
+  color: #888;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.stat-link {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: #666;
+}
+
 /* Preview server controls */
 .preview-dot {
   display: inline-block;

@@ -622,10 +622,22 @@ document.getElementById('btn-preview-toggle').addEventListener('click', async ()
 });
 
 /* ======================================================
-   Section 8: Init
+   Section 8: Analytics
+   ====================================================== */
+
+async function loadStats() {
+  const stats = await api('/api/stats');
+  if (!stats) return;
+  document.getElementById('stat-pageviews').textContent = stats.pageviews;
+  document.getElementById('stat-visitors').textContent = stats.visitors;
+}
+
+/* ======================================================
+   Section 9: Init
    ====================================================== */
 
 loadDashboard();
+loadStats();
 updatePreviewStatus();
 // Poll preview status periodically
 previewPollInterval = setInterval(updatePreviewStatus, 10000);
