@@ -540,6 +540,35 @@ document.getElementById('btn-save-page').addEventListener('click', async () => {
   }
 });
 
+// Save & Publish page
+document.getElementById('btn-save-publish-page').addEventListener('click', async () => {
+  if (!editingPage) return;
+
+  const data = {
+    title: document.getElementById('page-editor-title').value.trim(),
+    permalink: document.getElementById('page-editor-permalink').value.trim(),
+    content: pageMDE ? pageMDE.value() : '',
+  };
+
+  const result = await api(`/api/pages/${encodeURIComponent(editingPage)}`, {
+    method: 'PUT',
+    body: JSON.stringify(data),
+  });
+
+  if (!result) return;
+
+  const btn = document.getElementById('btn-save-publish-page');
+  btn.disabled = true;
+  btn.textContent = 'Publishing...';
+  try {
+    const sync = await api('/api/sync', { method: 'POST' });
+    showToast(sync.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Save & Publish';
+  }
+});
+
 // Back to pages
 document.getElementById('btn-back-pages').addEventListener('click', e => {
   e.preventDefault();
